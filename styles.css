@@ -1,0 +1,51 @@
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+a {
+  color: gold;
+  text-decoration: none;
+} 
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  padding: 20px; /* Reduced padding for better spacing */
+}
+
+body {
+  /* transform: scale(125%); */
+  background-color: black;
+  background-image: url(./resources/landscape.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: fill;
+}
+
+h1, p, .result {
+  font-family: "Pixelify Sans", sans-serif;
+  color: gold;
+  text-shadow: -3px -3px 0 darkblue, 3px -3px 0 darkblue, -3px 3px 0 darkblue, 3px 3px 0 darkblue;
+}
+
+h1 {
+  padding-top: 10%;
+  margin: 30px;
+  font-size: 3rem; /* Adjusted font size for better readability */
+}
+
+p {
+  font-size: 2rem; /* Adjusted font size for better readability */
+}
+
+img {
+  width: 230px; /* Reduced image width for better fit */
+}
+
+.result {
+  margin: 30px;
+  font-size: 3rem; /* Adjusted font size for better readability */
+}
+
